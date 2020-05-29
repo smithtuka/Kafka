@@ -1,0 +1,171 @@
+body {
+    background: url('background.png');
+    font-size: 8pt;
+    font-family: Verdana, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+#banner {
+    background: url('bannerbg.png');
+    text-align: center;
+}
+
+.movie-title {
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+    text-shadow: 3px 3px #999;
+
+}
+
+.item1 {
+    grid-area: right;
+}
+
+.item1 img{
+    object-fit:cover;
+}
+
+.item2 {
+    grid-area: down;
+}
+
+.item3 {
+    grid-area: header;
+    background: url('rbg.png');
+    grid-area: main;
+}
+
+.item4 {
+    grid-area: main
+}
+
+.item5 {
+    grid-area: footer
+}
+
+.item1 {
+    grid-area: header;
+    width: 250px;
+    
+
+}
+
+.item2 {
+    grid-area: menu;
+    background:#A2B964;
+    width: 250px;
+    /* padding:10pt; */
+    font-size:8pt;
+    font-family:Arial,sans-serif;
+    
+
+}
+
+
+.item3 span {
+    font-size: 48pt;
+    font-weight: bold;
+    color: red;
+    vertical-align: text-bottom;
+    
+}
+
+.item3 img{
+    height:83px;
+}
+
+.item4 {
+    grid-area: right;
+}
+
+.item5 {
+    grid-area: footer;
+    background-color:#A2B964;
+    padding:5px;
+    text-align:center;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+        'main header '
+        'right header '
+        'right menu '
+        'footer footer';
+    border: 4px solid gray;
+    border-radius: 20px;
+    overflow:hidden;
+
+    width: 800px;
+    margin: auto;
+}
+
+#columns {
+    column-count: 2;
+    column-gap: 40px;
+    margin: 2%;
+}
+
+#columns div{
+    margin-top:20pt;
+}
+
+.first {
+    background-color: #E8DC9B;
+    font-size: 8pt;
+    font-weight: bold;
+    border: 2px gray solid;
+    border-radius: 10px;
+    padding: 8px;
+    
+}
+
+.first img {
+    float: left;
+    margin-right: 5px;
+
+}
+
+.second {
+    font-style: italic;
+
+}
+
+.second img {
+    margin-right: 5px;
+
+}
+dt{
+    font-weight:bold;
+    margin-top:10px;
+}
+
+dd ul {
+    list-style:none;
+    padding-left:0;
+    
+}
+
+dl{
+    padding:10pt;
+}
+
+.footer {
+    text-align:right;
+    
+    position:fixed;
+    bottom:0;
+    right:0; 
+
+    
+}
+
+.footer img {
+    opacity:0.5;
+    
+    
+}

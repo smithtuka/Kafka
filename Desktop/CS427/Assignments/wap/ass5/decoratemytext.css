@@ -1,0 +1,15 @@
+h1{
+    font-style: italic;
+}
+legend{
+    font-weight: bold;
+}
+
+.enlarged{
+    font-size: 24pt;
+}
+
+#texta{
+    display: inline;
+    font-size: 12pt;
+}

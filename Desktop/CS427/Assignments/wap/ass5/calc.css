@@ -1,0 +1,44 @@
+.container{
+    justify-content: center;
+    align-items: center;
+    margin: 20% auto;
+    margin-top: auto;
+    max-width: fit-content;
+    overflow: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+
+}
+img{
+/* float: left; */
+display:inline-block;
+}
+h1{
+    display: inline;
+    /* clear:both; */
+    font-size: 3em;
+}
+#total{
+    font-weight: bold;
+    color: rgb(11, 105, 11);
+}
+
+#btn{
+    display:block;
+    max-width: fit-content;
+    padding: 10px;
+    font-size: 1.5em;
+}
+p{
+    font-weight: bold;
+    font-size: 1.8em;
+}
+input[type=text], input[type=number]{
+    display: block;
+    padding: 0.3em;
+    font-size: 1em;
+    
+}
+label, #total{
+    font-size: 1.5em;
+}
