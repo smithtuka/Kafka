@@ -1,0 +1,24 @@
+{
+  "groups": [
+    {
+      "name": "limit-service",
+      "type": "com.galbern.limitservice.Configuration",
+      "sourceType": "com.galbern.limitservice.Configuration"
+    }
+  ],
+  "properties": [
+    {
+      "name": "limit-service.maximum",
+      "type": "java.lang.Integer",
+      "sourceType": "com.galbern.limitservice.Configuration",
+      "defaultValue": 0
+    },
+    {
+      "name": "limit-service.minimum",
+      "type": "java.lang.Integer",
+      "sourceType": "com.galbern.limitservice.Configuration",
+      "defaultValue": 0
+    }
+  ],
+  "hints": []
+}
