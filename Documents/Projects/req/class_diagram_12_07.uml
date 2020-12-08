@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.galbern.req.domain.Address</OriginalElement>
+  <nodes>
+    <node x="103.78208522789805" y="975.6152440238607">com.galbern.req.domain.Customer</node>
+    <node x="535.0205898199777" y="490.4254148127873">com.galbern.req.domain.Stage</node>
+    <node x="842.6885832706923" y="0.0">com.galbern.req.domain.Auditable</node>
+    <node x="14.359148448491737" y="533.2795646827127">com.galbern.req.domain.Item</node>
+    <node x="282.57687215696694" y="1037.3665018140305">com.galbern.req.domain.Person</node>
+    <node x="625.6885832706923" y="765.6409476090521">com.galbern.req.domain.Project</node>
+    <node x="240.8340148002257" y="1417.489149286204">com.galbern.req.domain.User</node>
+    <node x="337.9953138185006" y="0.0">com.galbern.req.domain.Comment</node>
+    <node x="217.5768721569668" y="377.4240478156918">com.galbern.req.domain.Requisition</node>
+    <node x="0.0" y="809.8816590622358">com.galbern.req.domain.Supplier</node>
+    <node x="507.0810944577555" y="974.0452494439834">com.galbern.req.domain.Address</node>
+    <node x="115.07121120314764" y="40.72126975399033">com.galbern.req.domain.ApprovalStatus</node>
+    <node x="235.23896939975862" y="1678.6939958368241">com.galbern.req.domain.Role</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.galbern.req.domain.Customer" target="com.galbern.req.domain.Person">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.galbern.req.domain.Supplier" target="com.galbern.req.domain.Item">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.galbern.req.domain.Item" target="com.galbern.req.domain.Supplier">
+      <point x="10.09336592237861" y="2.8421709430404007E-14" />
+      <point x="10.09336592237861" y="0.0" />
+    </edge>
+    <edge source="com.galbern.req.domain.Customer" target="com.galbern.req.domain.Project">
+      <point x="0.0" y="-10.46521297890834" />
+      <point x="0.0" y="-10.465212978908383" />
+    </edge>
+    <edge source="com.galbern.req.domain.Stage" target="com.galbern.req.domain.Requisition">
+      <point x="0.0" y="10.864656170648004" />
+      <point x="0.0" y="10.864656170647947" />
+    </edge>
+    <edge source="com.galbern.req.domain.Comment" target="com.galbern.req.domain.Requisition">
+      <point x="5.081516230435113" y="-1.1368683772161603E-13" />
+      <point x="5.081516230435135" y="0.0" />
+    </edge>
+    <edge source="com.galbern.req.domain.Requisition" target="com.galbern.req.domain.ApprovalStatus">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.galbern.req.domain.Stage" target="com.galbern.req.domain.Project">
+      <point x="10.236187268995934" y="0.0" />
+      <point x="10.236187268995877" y="0.0" />
+    </edge>
+    <edge source="com.galbern.req.domain.User" target="com.galbern.req.domain.Person">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.galbern.req.domain.Person" target="com.galbern.req.domain.Address">
+      <point x="-1.1848482158719946" y="-4.857585275149063" />
+      <point x="-1.1848482158719946" y="-4.857585275149063" />
+    </edge>
+    <edge source="com.galbern.req.domain.Project" target="com.galbern.req.domain.Customer">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.galbern.req.domain.Project" target="com.galbern.req.domain.Stage">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.galbern.req.domain.Supplier" target="com.galbern.req.domain.Person">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.galbern.req.domain.User" target="com.galbern.req.domain.Role">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.galbern.req.domain.Requisition" target="com.galbern.req.domain.Comment">
+      <point x="-4.919791429625967" y="-0.8919934355021155" />
+      <point x="-4.919791429625967" y="-0.8919934355021724" />
+    </edge>
+    <edge source="com.galbern.req.domain.Requisition" target="com.galbern.req.domain.Item">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.galbern.req.domain.Item" target="com.galbern.req.domain.Requisition">
+      <point x="0.0" y="-12.004766618155116" />
+      <point x="-18.074380758221643" y="0.0" />
+    </edge>
+    <edge source="com.galbern.req.domain.Project" target="com.galbern.req.domain.Address">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.galbern.req.domain.Requisition" target="com.galbern.req.domain.Stage">
+      <point x="0.0" y="-10.864656170647947" />
+      <point x="0.0" y="-10.864656170648004" />
+    </edge>
+  </edges>
+  <settings layout="Circular" zoom="0.5677442924535301" x="831.6157827153753" y="507.5262190760185" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>Production</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
